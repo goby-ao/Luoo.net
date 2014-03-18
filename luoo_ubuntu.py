@@ -104,7 +104,7 @@ def download(start,end):
         print '### Downlonding >>> Cover.jpg'
         requestResource(coverPath,coverUrl)
 
-        # Download the HTML
+        # Download the HTML 
         htmlUrl = htmlRaw + str(x)
         htmlPath = folderPath + 'VOL.' + str(x) + '.html'
         print '### Downloading >>> HTML'
